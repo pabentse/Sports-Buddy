@@ -12,7 +12,7 @@ frames_dir = os.path.join(os.getcwd(), folder)
 os.makedirs(frames_dir, exist_ok=True)
 
 # Initialize the video capture
-cap = cv2.VideoCapture("videos/clippers.mp4")
+cap = cv2.VideoCapture("/Users/palbentsen/Downloads/Brazil 1-7 Germany | Extended Highlights | 2014 FIFA World Cup.mp4")
 
 # Wait for the camera to initialize and adjust light levels
 time.sleep(2)
